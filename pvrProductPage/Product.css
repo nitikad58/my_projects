@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    text-align:center;
+}
+
+#myCarousel {
+  margin-top: 40px;
+}
+
+.carousel-item img{
+  box-shadow: 10px 10px 5px #aaaaaa;
+  border-radius: 5px;
+  border: 2px solid gray;
+}
+
+.carousel-linked-nav,
+.item img {
+  display: inline-flex; 
+  margin: 0 auto;
+}
+
+.carousel-linked-nav {
+  width: 120px;
+  margin-bottom: 20px;   
+}
+
+.carousel-item h3,p{
+    color:black;
+    opacity:0.6;
+} 
+
+.carousel-item img{
+    color:black;
+    opacity:0.9;
+}
+
+#more {display: none;}
+
+.page-handling{
+  font-size: 25px;
+  font-weight: bold;
+ 
+}
+
+.page-handling a{
+  color:black;
+  text-decoration: none;
+ 
+}
+
+a:hover{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
